@@ -18,7 +18,7 @@ A RESTful API built with **FastAPI** that analyzes strings and stores their comp
 
 1. **Clone the repository**
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/nodebugger/string_analyzer.git
    cd string_analyzer
    ```
 
@@ -173,5 +173,4 @@ curl -X DELETE "http://127.0.0.1:8000/strings/racecar"
 Run the provided test scripts after starting the server:
 ```bash
 python test_endpoints.py
-python test_simple.py
 ```
